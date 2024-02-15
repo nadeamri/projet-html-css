@@ -1,0 +1,448 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+  .row {
+    margin: 0;
+}
+
+  .navbar{
+    position: sticky!important;
+
+    width:100%;
+    Z-index:9;
+    top:0;
+}
+  .navbar-brand{
+
+font-weight: 900;  }
+
+
+.body{
+    font-family: "Spline Sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+    
+}
+a{
+    color: #222;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 600;
+}
+a:hover{
+    color: #F58D17;
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.shadow-on-hover{
+    transition: all 0.4s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+/*Btn*/
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand{
+    color: #fff;
+  background-color: #F58D17;
+  font-weight: 500;
+  border-color: #F58D17;
+}
+.btn-brand:hover{
+    border-color: #ca7810;
+    background-color: #ca7810;
+    color: #fff;
+}
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./penne.jpg);
+
+   background-size: cover !important;
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./grilled.jpg);
+
+   background-size: cover !important;
+   background-position: center  !important;
+   background-repeat: no-repeat !important;
+
+}
+#carouselExample h6::after,#carouselExample h6::before{
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+
+}
+.container {
+    max-width: 1300px;
+    
+}
+.carousel-item{
+        height: 100vh; /* Hauteur à 100% de la vue */
+        color: #fff; /* Couleur du texte blanc (pour un meilleur contraste) */
+        /* Ajoutez d'autres styles au besoin */
+        text-align: center;
+    }
+.row{
+        justify-content: center;
+    }
+.carousel-title{
+        color: #fff; 
+        margin-top:20% ;
+    }
+.display-1 {
+    color: #fff;
+    font-weight: bold;
+}
+.carousel-control-prev , .carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    margin-left: auto; 
+  }
+  
+
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-section .col-lg-6 {
+    max-width: 600px;
+  }
+   
+ .divider {
+     width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #F58D17;
+    margin-bottom: 20px;
+  }
+  
+  .conta {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.alpha {
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+/**Menu**/
+#menu{
+    background-color: #f8f9fa;
+    padding: 10px; /* Espacement intérieur */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+.menu-items{
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.text-intro {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.text-intro p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+.button-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.pro{
+    border-radius: 100px;
+    color: #222;
+  background-color: #fff;
+  font-weight: 500;
+  border-color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.pro:hover{
+    border-color: #ca7810;
+    background-color: #ca7810;
+    color: #fff;
+}
+.proj{
+    
+    justify-content: center;
+    margin-bottom: 30px;
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+}
+.menu-items .stars{
+    color: #F58D17;
+
+}
+
+/*Features*/
+
+#features{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./penne.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.feature{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    
+}
+
+ .row.projet  {
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text1, .text2{
+    color: white;
+    
+}
+
+.feature .feature-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #F58D17;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+}
+.chef{
+    border-radius: 50%;
+}
+.containeur .row{
+    justify-content: left;
+}
+
+.team-member {
+    text-align: center;
+}
+.team-member img{
+    max-width: 200px;
+    box-shadow: -10px -10px 0 #F58D17;
+    border-radius: 100px;
+    height: 200px;
+}
+#team{
+    background-color: #f5f5f5; /* Arrière-plan léger (gris plus clair) */
+background-size: cover;
+padding: 20px 0;
+}
+
+/*AVis*/
+.rev{
+    justify-content: center;
+}
+
+
+#review{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./restau.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.review{
+    background-color: white;
+    padding: 3rem;
+    text-align: center;
+
+}
+.review-icon{
+    color: #777;
+    font-size: 74px;
+}
+.parag{
+    margin-bottom: 0;
+    color: #777;
+
+
+}
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+.review .stars{
+    color: #ca7810;
+}
+/*formulaire*/
+.form-control {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ca7810;
+}
+.blo{
+    justify-content: space-around;
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-control textarea {
+    resize: vertical; /* Permet la redimension verticale uniquement */
+}
+#rev{
+    background-color: #f8f9fa;
+    
+}
+.form-control input:hover,
+.form-control textarea:hover {
+    border-color: #ca7810; /* Couleur de la bordure au survol */
+}
+#reservation h1{
+  
+        color: #f90; /* Orange */
+        text-shadow: 2px 2px 4px #888; /* Ombre pour un effet de profondeur */
+
+    
+}
+.bouto{
+    justify-content: center;
+    
+}
+#bo{
+    background-color:  #f8f9fa;
+
+}
+/*blog**/
+
+.blog-post{
+    display: flex;
+    padding: 4rem;
+
+}
+.center{
+    text-align: center;
+}
+
+.blog-post-content{
+    padding: 0.5rem;
+}
+.blog-post img{
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    .blog-post{
+        flex-direction: column;
+    }
+    .blog-post img{
+        width: 100%;
+    }
+}
+#blo{
+    justify-content: space-around;
+}
+/**Footer**/
+
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./restau.jpg);
+    background-position: center;
+    background-size: cover;
+      height: 400px;
+      padding-top: 120px;
+      padding-bottom: 30px;
+    
+}
+#desc {
+   
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    margin-left: auto;
+
+
+}
+#qrispy{
+    color: rgba(255, 255, 255, 0.75)
+
+}
+.footer-top{
+margin-bottom: 15px;
+}
+footer p , footer a {
+    color: rgba(255, 255, 255, 0.75)
+    
+}
+footer a {
+    font-weight: normal;
+    font-size: 24px;
+}
+footer .social-links a {
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.footer-bottom{
+    border-top: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-bottom .row {
+    display: flex;
+    align-items: center;
+}
